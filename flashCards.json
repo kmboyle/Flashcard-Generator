@@ -1,0 +1,27 @@
+{
+    "basic": [
+
+        {
+            "front": "What percentage of the land in the state of Nevada is owned by the government?",
+            "back": "80%"
+        },
+        {
+            "front": "How many acres of pizza are served in the United States every day!",
+            "back": "100"
+        },
+        {
+            "front": "What organ in the human body lacks nerves despite the fact that it acts as the central command for the central nervous system?",
+            "back": "The human brain"
+        },
+        {
+            "front": "What kills 4 times as many people as sharks per year?",
+            "back": "Vending Machines"
+
+        }
+
+    ],
+
+    "cloze": [
+
+    ]
+}

@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/kmboyle/Flashcard-Generator#readme",
   "dependencies": {
-    "inquirer": "^3.2.1"
+    "inquirer": "^3.2.1",
+    "jsonfile": "^3.0.1"
   }
 }

@@ -1,27 +1,80 @@
 {
     "basic": [
 
-        {
+
+
+    ],
+    "basicDefault": [{
             "front": "What percentage of the land in the state of Nevada is owned by the government?",
-            "back": "80%"
+            "back": "80"
         },
         {
-            "front": "How many acres of pizza are served in the United States every day!",
+            "front": "How many acres of pizza are served in the United States every day?",
             "back": "100"
         },
         {
             "front": "What organ in the human body lacks nerves despite the fact that it acts as the central command for the central nervous system?",
-            "back": "The human brain"
+            "back": "brain"
         },
         {
             "front": "What kills 4 times as many people as sharks per year?",
             "back": "Vending Machines"
-
+        },
+        {
+            "front": "What is part of a database that holds only one type of information?",
+            "back": "field"
+        },
+        {
+            "front": "'.MOV' extension refers usually to what kind of file?",
+            "back": "movie"
+        },
+        {
+            "front": "What is the term to ask the computer to put information in order numerically or alphabetically?",
+            "back": "sort"
+        },
+        {
+            "front": "What city was located just miles away from Mount Vesuvius volcano?",
+            "back": "Pompeii"
+        },
+        {
+            "front": "What was life expectancy in 1900?",
+            "back": "47"
         }
-
     ],
 
     "cloze": [
 
+    ],
+    "clozeDefault": [{
+            "text": "A hot potato",
+            "cloze": "potato"
+        },
+        {
+            "text": "Penny for your thoughts",
+            "cloze": "Penny"
+        }, {
+            "text": "Actions speak louder than words",
+            "cloze": "Actions"
+        },
+        {
+            "text": "Add insult to injury",
+            "cloze": "insult"
+        },
+        {
+            "text": "At the drop of a hat",
+            "cloze": "hat"
+        },
+        {
+            "text": "Back to the drawing board",
+            "cloze": "drawing"
+        },
+        {
+            "text": "Ball is in your court",
+            "cloze": "Ball"
+        },
+        {
+            "text": "Barking up the wrong tree",
+            "cloze": "Barking"
+        }
     ]
 }

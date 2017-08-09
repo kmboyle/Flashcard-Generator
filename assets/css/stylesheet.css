@@ -1,0 +1,20 @@
+.image {
+    position: relative;
+    width: 100%;
+    /* for IE 6 */
+}
+
+h3 {
+    position: absolute;
+    top: 28px;
+    left: 105px;
+    width: 318px;
+    word-wrap: break-word;
+    padding: 10px;
+}
+
+.form-control {
+    width: 340px;
+    top: 135px;
+    left: 175px;
+}

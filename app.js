@@ -17,6 +17,12 @@ ClozeCard.prototype.partialText = this.partialText;
 
 //asks user the type of card to make and the quantity
 function prompt() {
+    //initialize counts to zero and arrays to empty
+    inc = 0;
+    count = 0;
+    dec = 0;
+    questions.basic = [];
+    questions.cloze = [];
     inquirer.prompt([{
             type: "list",
             name: "typeCard",
@@ -173,12 +179,19 @@ function clozeDeleted(guesser, removal, cards) {
     replace that portion of the string with "..." and save this new string to the partialText property.  I
     could also *potentially*  write code to replace the string with a more specific string, relating to 
     the replaced strings length or number of characters.*/
-    if (stringArray.includes(removal.toLowerCase())) {
-        cards.partialText = guesser.toLowerCase().replace(removal.toLowerCase(), "...");
+
+    var removeArray = removal.toLowerCase().split(" ");
+    var partialArray = [];
+
+    console.log(guesser);
+    console.log(removal);
+    if (guesser.toLowerCase().includes(removal.toLowerCase())) {
+        cards.partialText = guesser.replace(removal, "...");
     } else {
         //if the word is not in the sentence, alert user.
         return console.log("Oops, that is not in the sentence.");
     }
+
 }
 //allows the user a way to run cloze flashcards
 function clozeAnswer(dec, count) {
